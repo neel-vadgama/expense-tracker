@@ -1,0 +1,54 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.main-content {
+  margin: auto;
+}
+/* Remove Up-down Arrows from input[type=number] */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input-box {
+  letter-spacing: 0.5px;
+  padding: 0.5rem;
+  outline: none;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 50%;
+  margin-left: 1rem;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.list li {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.list li.plus {
+  border-right: 5px solid #2ecc71;
+}
+
+.list li.minus {
+  border-right: 5px solid #c0392b;
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+}
